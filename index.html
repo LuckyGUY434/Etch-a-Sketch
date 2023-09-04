@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Etch-a-Sketch</title>
+    <script src="game.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Etch a Sketch</h1>
+    </header>
+    <div class="contentContainer">
+            <div class="options-container">
+                <input type="range" value="16" min="1" max="100" id="range-slider">
+                <p class="gridText">Grid size:<span id = "grid-size-text">16x16</span></p>
+                <div class="black-color-div">
+                    <p class="black-color-p">black color</p>
+                </div>
+                <div class="rgb rgb-color">
+                    <p class="rgb-p">RGB</p>
+                </div>
+                <div class="clear clear-button">
+                    <p class="pClear">clear</p>
+                </div>
+            </div>
+            <div class= "gridContainer"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: cyan; 
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.options-container {
+    margin-right: 110px;
+    
+}
+
+
+h1 {
+    display: flex;
+    justify-content:center;
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50px;
+    font-size: 70px;
+    
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.clear-button 
+.pClear {
+    margin: 0;
+}
+
+.pClear {
+    color: black;
+}
+
+.clear-button {
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 130px;
+    height: 50px;
+    margin-left: 63px;
+    transition: all 0.2s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clear-button:hover {
+    padding: 2px;
+    transform: scale(1.05) translateY(0);
+}
+
+
+.gridContainer {
+display: flex;
+    flex-wrap: wrap;
+    border-color: black;
+    border: 2px solid;
+    width: 730px;
+    height: 690px;
+}
+
+.buttons {
+    flex-basis: calc(100% / var(--grid-size));
+    width: calc(100% / var(--grid-size)); 
+    height: calc(100% / var(--grid-size) ); 
+    background-color: white;
+}
+
+#range-slider {
+    display: flex;
+    width: 250px;
+}
+
+.black-color-div {
+    display: flex;
+    background-color: lightgray;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    margin-left: 63px;
+    width: 130px;
+    height: 50px;
+}
+
+
+.black-color-div:hover{
+    padding: 2px;
+    transition: 0.3s;
+    transform: scale(1.05) translateY(0);
+}
+
+.black-color-div 
+.black-color-p{
+margin: 0;
+
+}
+
+
+.black-color-p { 
+    color: black;
+}
+
+
+.rgb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    cursor: pointer;
+    border:1px solid black;
+    margin-left: 63px;
+    width: 130px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.rgb:hover{
+    padding: 2px;
+    transition: 0.3s;
+    transform: scale(1.05) translateY(0);
+}
