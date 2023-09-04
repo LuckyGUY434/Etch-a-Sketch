@@ -1,2 +1,2 @@
 # Etch-a-Sketch
-game project made with html, css and js.
+etch-a-sketch project made with html, css and js 
